@@ -1,3 +1,4 @@
+``m̀arkdown
     ___    ________  ___   ____  ____  ______   ____________    ___________
    / | / / |  / /  _/  |/  /  / __ \/ __ \/_  __/  / ____/  _/ /   / ____/ ___/
   /  |/ /| | / // // /|_/ /  / / / / / / / / /    / /_   / // /   / __/  \__ \ 
@@ -5,11 +6,12 @@
 /_/ |_/  |___/___/_/  /_/  /_____/\____/ /_/    /_/   /___/_____/_____//____/
 
 <div align="center">
-*NVIM setup tailored my own coding style and needs*
-
+    
+**NVIM setup tailored my own coding style and needs**
 
 [![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://www.lua.org)
 [![NeoVim](https://img.shields.io/badge/NeoVim-57A143?style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io)
+
 </div>
 
 ---
