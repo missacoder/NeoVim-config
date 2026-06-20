@@ -1,29 +1,31 @@
 <div align="center">
 
-# DotFiles
-**NVIM setup tailored my own coding style and needs**
+# My DotFiles
+**This repo contains the config files of several applications and environments I use. This are all tailored to my use and liking, so keep that in mind.**
 
-[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://www.lua.org)
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
+[![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](#)
 [![NeoVim](https://img.shields.io/badge/NeoVim-57A143?style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io)
-
+[![Fedora](https://img.shields.io/badge/Fedora-51A2DA?logo=fedora&logoColor=fff)](#)
+[![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?logo=alacritty&logoColor=fff)](#) 
 </div>
 
 ---
 
-## 📋 Overview
+## 📋 Contents
 
-This repository contains my personal **.dotfiles configuration**, crafted for my own dev experience. It features my configurations for things such as my window-manager, neovim, etc. It includesseveral plugins and a modern minimal and efficient aesthetic that enhances my productivity.
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=NeoVim+Config+Screenshot" alt="NeoVim Config" />
-</div>
+- sway/ — Sway config
+- rofi/ — rofi config + CSS themes
+- swaync/ — Notification daemon config
+- i3status/ — Status bar config
+- wallpapers/ — Wallpapers
 
 ---
 
-## 📦 Plugin List Nvim
+## 📦 Nvim Plugin List
 
 <details>
-<summary><b>Core Plugins</b> (Click to expand)</summary>
+<summary><b>Core Plugins</b></summary>
 
 - **lazy.nvim** - Plugin manager
 - **nvim-lspconfig** - LSP client configuration
@@ -35,7 +37,7 @@ This repository contains my personal **.dotfiles configuration**, crafted for my
 </details>
 
 <details>
-<summary><b>UI & Navigation</b> (Click to expand)</summary>
+<summary><b>UI & Navigation</b></summary>
 
 - **nvim-tree.lua** - File explorer
 - **lualine.nvim** - Status line
@@ -46,7 +48,7 @@ This repository contains my personal **.dotfiles configuration**, crafted for my
 </details>
 
 <details>
-<summary><b>Editing & Productivity</b> (Click to expand)</summary>
+<summary><b>Editing & Productivity</b></summary>
 
 - **vim-surround** - Surround operations
 - **vim-commentary** - Easy commenting
@@ -57,27 +59,17 @@ This repository contains my personal **.dotfiles configuration**, crafted for my
 </details>
 
 ---
+## 🖥️ Installation
 
-## 🎨 Customization
-
-### Themes
-#### Sway
-#### Nvim
-
-Edit `lua/plugins/ui.lua`:
-
-```lua
-return {
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme("tokyonight-night")
-    end,
-  },
-}
+Clone the repo:
+```shell
+git clone https://github.com/missacoder/DotFiles.git
+cd DotFiles
 ```
+Then you need to move each file manually to your .config.
+
+You also need to move the file location of your wallpaper.
+
 ---
 
 ## 🤝 Contributing
