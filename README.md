@@ -19,6 +19,7 @@
 - swaync/ — Notification daemon config
 - i3status/ — Status bar config
 - wallpapers/ — Wallpapers
+- Obsidian CSS/ - CSS snippet for obsidian
 
 ---
 
